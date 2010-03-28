@@ -11,6 +11,6 @@ HOW TO USE
 
 	3. Test
 		TinySegmenter* segmenter = [ [ TinySegmenter alloc ] init ];
-		NSArray* segs = [ segmenter segment: @"‚±‚ê‚ÍƒeƒXƒg‚Å‚·‚æ" ];
+		NSArray* segs = [ segmenter segment: @"ã“ã‚Œã¯ãƒ†ã‚¹ãƒˆã§ã™ã‚ˆ" ];
 		NSLog(@"%@", [ segs componentsJoinedByString: @"|" ]);
-		// ‚±‚ê|‚Í|ƒeƒXƒg|‚Å‚·|‚æ
+		// ã“ã‚Œ|ã¯|ãƒ†ã‚¹ãƒˆ|ã§ã™|ã‚ˆ
