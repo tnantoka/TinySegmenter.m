@@ -1,0 +1,16 @@
+TinySegmenter.m -- Super compact Japanese tokenizer in Objective-C
+
+HOW TO USE
+
+	1. CocoaOniguruma
+		Add all .h, .c and .m files of under "Classes".
+		(For details, see http://github.com/psychs/cocoaoniguruma)
+
+	2. TinySegmenter
+		Add TinySegmenter.h and TinySegmenter.m files  under "Classes".
+
+	3. Test
+		TinySegmenter* segmenter = [ [ TinySegmenter alloc ] init ];
+		NSArray* segs = [ segmenter segment: @"これはテストですよ" ];
+		NSLog(@"%@", [ segs componentsJoinedByString: @"|" ]);
+		// これ|は|テスト|です|よ
