@@ -8,6 +8,8 @@ HOW TO USE
 
 	2. TinySegmenter
 		Add TinySegmenter.h and TinySegmenter.m files  under "Classes".
+		Import the header file.
+		    #import "TinySegmenter.h"
 
 	3. Test
 		TinySegmenter* segmenter = [ [ TinySegmenter alloc ] init ];
