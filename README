@@ -10,6 +10,12 @@ HOW TO USE
 		Add TinySegmenter.h and TinySegmenter.m files  under "Classes".
 		Import the header file.
 		    #import "TinySegmenter.h"
+		
+		# If use CocoaOniguruma as a Framework
+			
+			TinySegmenter.h
+				// #import "OnigRegexp.h" <- comment out
+				#import "CocoaOniguruma/OnigRegexp.h" <- uncomment
 
 	3. Test
 		TinySegmenter* segmenter = [ [ TinySegmenter alloc ] init ];
