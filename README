@@ -28,6 +28,7 @@ HOW TO USE
 
 	1. RegexKitLite
 		Add RegexKitLite.h and RegexKitLite.m under "Classes".
+		Add the linker option "-licucore".
 		( For details, see http://regexkit.sourceforge.net/RegexKitLite/ )
 
 	2. TinySegmenter
