@@ -207,6 +207,7 @@
 	// for CocoaOniguruma
     // NSArray* o = [ input splitByRegexp: @"" ];
 	// for RegetKitLite
+	// NSArray* o = [ input componentsSeparatedByRegex: @"" ];
     NSArray* o = [ input componentsMatchedByRegex: @"." ];
 	NSLog(@"test, %p", o);
 	for (int i = 0; i < [ o count ]; i++) {
