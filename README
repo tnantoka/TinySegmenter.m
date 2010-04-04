@@ -22,3 +22,16 @@ HOW TO USE
 		NSArray* segs = [ segmenter segment: @"これはテストですよ" ];
 		NSLog(@"%@", [ segs componentsJoinedByString: @"|" ]);
 		// これ|は|テスト|です|よ
+
+
+* for RegexKitLite
+
+	1. RegexKitLite
+		Add RegexKitLite.h and RegexKitLite.m under "Classes".
+		( For details, see http://regexkit.sourceforge.net/RegexKitLite/ )
+
+	2. TinySegmenter
+		Add forRegexKitLite/TinySegmenter.h and forRegexKitLite/TinySegmenter.m under "Classes".
+			：
+			：
+			：

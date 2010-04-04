@@ -183,7 +183,7 @@
 	NSMutableArray* ctype = [ NSMutableArray arrayWithObjects: @"O", @"O", @"O", nil ];
 	
 	
-    NSArray* o = [input splitByRegexp: @"" ];
+    NSArray* o = [ input splitByRegexp: @"" ];
 	for (int i = 0; i < [ o count ]; i++) {
 		[ seg addObject: [ o objectAtIndex: i ] ];
 		[ ctype addObject: [ self ctype_: [ o objectAtIndex: i ] ] ];
